@@ -1,0 +1,79 @@
+7:356  4:771  Found BIOS RSDP at FE300
+7:356  0:000  Saving ACPI tables from RSDP FE300 to EFI\CLOVER\ACPI\origin ...
+7:356  0:000   FE300: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:375  0:018    (Xsdt: CAFFDE18, Rsdt: CAFFDF18)
+7:375  0:000    CAFFDE18: 'XSDT', 'CBX3', Rev: 1, Len: 124 -> XSDT.aml
+7:386  0:011    CAFFDF18: 'RSDT', 'CBX3', Rev: 1, Len: 84 -> RSDT.aml
+7:403  0:016    Tables in Xsdt: 11
+7:403  0:000    0. CAF87D98: 'FACP', 'CBX3', Rev: 4, Len: 244 -> FACP.aml
+7:417  0:014        (Dsdt: CAF55018, Facs: CAFE4E40, XDsdt: CAF55018, XFacs: CAFE4D40)
+7:417  0:000        CAF55018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 33948 -> DSDT.aml
+7:437  0:019        CAFE4D40: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+7:453  0:016    1. CAFFCF18: 'APIC', 'CBX3', Rev: 2, Len: 204 -> APIC.aml
+7:465  0:012    2. CAFE5D18: 'TCPA', '', Rev: 2, Len: 50 -> TCPA.aml
+7:494  0:029    3. CAF88A98: 'SSDT', 'TPM', Rev: 1, Len: 761 -> SSDT-0-TPM.aml
+7:506  0:012    4. CAFE5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60 -> MCFG.aml
+7:523  0:016    5. CAFE5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56 -> HPET.aml
+7:534  0:011    6. CAFE5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40 -> BOOT.aml
+7:546  0:011    7. CAF6C018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2052 -> SSDT-1-Cpu0Ist.aml
+7:565  0:019    8. CAF6B018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+ Found hidden SSDT 4 pcs
+7:565  0:000        * C7F0B018: 'D	', '', Rev: 0, Len: 23117  44 09 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00       * CADD8A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 8E 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x2_0-ApIst.aml
+7:583  0:017        * CADD7798: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1831  53 53 44 54 27 07 00 00 01 7D 50 6D 52 65 66 00 Internal length = 1831 -> SSDT-x2_1-Cpu0Cst.aml
+7:595  0:012        * CADD6D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 04 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+7:613  0:017   -> SSDT-2-CpuPm.aml
+7:626  0:013    9. CAF87C18: 'DMAR', 'SNB', Rev: 1, Len: 232 -> DMAR.aml
+7:641  0:015    10. CAF75C18: 'SLIC', 'CBX3', Rev: 3, Len: 374 -> SLIC.aml
+7:660  0:018    Tables in Rsdt: 12
+7:660  0:000    0. CAFE4B18: 'FACP', 'CBX3', Rev: 2, Len: 132 -> RSDT-FACP.aml
+7:673  0:013        (Dsdt: CAF55018, Facs: CAFE4E40)
+7:673  0:000        CAF55018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 33948
+7:674  0:000        CAFE4E40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+7:687  0:013    1. CAFFCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+7:687  0:000    2. CAF87F18: 'ASF!', ' HCG', Rev: 32, Len: 165 -> RSDT-ASF!.aml
+7:701  0:013    3. CAFE5D18: 'TCPA', '', Rev: 2, Len: 50
+7:701  0:000    4. CAF88A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+7:701  0:000    5. CAFE5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+7:701  0:000    6. CAFE5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+7:701  0:000    7. CAFE5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+7:701  0:000    8. CAF6C018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2052
+7:701  0:000    9. CAF6B018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+7:701  0:000    10. CAF87C18: 'DMAR', 'SNB', Rev: 1, Len: 232
+7:701  0:000    11. CAF75C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+7:701  0:000  Found UEFI Acpi 2.0 RSDP at 1FEEA000
+7:701  0:000  Printing ACPI tables from RSDP 1FEEA000 ...
+7:701  0:000   1FEEA000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:701  0:000    (Xsdt: CAFFDE18, Rsdt: CAFFDF18)
+7:701  0:000    CAFFDE18: 'XSDT', 'CBX3', Rev: 1, Len: 124
+7:701  0:000    CAFFDF18: 'RSDT', 'CBX3', Rev: 1, Len: 84
+7:701  0:000    Tables in Xsdt: 11
+7:701  0:000    0. CAF87D98: 'FACP', 'CBX3', Rev: 4, Len: 244
+7:701  0:000        (Dsdt: CAF55018, Facs: CAFE4E40, XDsdt: CAF55018, XFacs: CAFE4D40)
+7:701  0:000        CAF55018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 33948
+7:702  0:000        CAFE4D40: 'FACS', Ver: 1, Len: 64
+7:702  0:000    1. CAFFCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+7:702  0:000    2. CAFE5D18: 'TCPA', '', Rev: 2, Len: 50
+7:702  0:000    3. CAF88A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+7:702  0:000    4. CAFE5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+7:702  0:000    5. CAFE5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+7:702  0:000    6. CAFE5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+7:702  0:000    7. CAF6C018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2052
+7:702  0:000    8. CAF6B018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+7:702  0:000    9. CAF87C18: 'DMAR', 'SNB', Rev: 1, Len: 232
+7:702  0:000    10. CAF75C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+7:702  0:000    Tables in Rsdt: 12
+7:702  0:000    0. CAFE4B18: 'FACP', 'CBX3', Rev: 2, Len: 132
+7:702  0:000        (Dsdt: CAF55018, Facs: CAFE4E40)
+7:702  0:000        CAF55018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 33948
+7:703  0:000        CAFE4E40: 'FACS', Ver: 0, Len: 64
+7:703  0:000    1. CAFFCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+7:703  0:000    2. CAF87F18: 'ASF!', ' HCG', Rev: 32, Len: 165
+7:703  0:000    3. CAFE5D18: 'TCPA', '', Rev: 2, Len: 50
+7:703  0:000    4. CAF88A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+7:703  0:000    5. CAFE5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+7:703  0:000    6. CAFE5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+7:703  0:000    7. CAFE5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+7:703  0:000    8. CAF6C018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2052
+7:703  0:000    9. CAF6B018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+7:703  0:000    10. CAF87C18: 'DMAR', 'SNB', Rev: 1, Len: 232
+7:703  0:000    11. CAF75C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
